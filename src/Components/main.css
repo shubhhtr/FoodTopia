@@ -1,0 +1,169 @@
+body{
+  font-family: Helvetica !important;
+  margin-top: 60px;
+}
+
+
+.navbar{
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05), 0 6px 20px 0 rgba(0, 0, 0, 0.04) ;
+  background-color: white !important;
+}
+
+.navbar-brand{
+  font-size: 25px !important;
+}
+
+.navbar-brand:hover{
+  transform: scale(1.03);
+}
+
+
+.navbar-nav{
+  position: absolute !important;
+  right: 8px !important;
+}
+
+.navbar a{
+  color: #606060;
+}
+
+.navbar a:hover, .navbar a:active{
+ color: black !important;
+}
+
+input[type="search"]{
+    border: 1px solid rgb(0,0,0,0.3);
+    border-radius: 0px;
+    width: 300px !important;
+}
+input[type="search"]:focus{
+  border: 2px solid rgb(0,0,0,0.5);
+  border-radius: 0px;
+  /*outline: 2px solid red;*/
+}
+
+h2{
+  text-align: center !important;
+  font-size: 25px;
+}
+h3{
+  font-weight: 600;
+}
+
+button[type="submit"]{
+    background-color: black;
+    color: white;
+    height: 32px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 0px;
+    border-width: 0px;
+  }
+button[type="submit"]:hover{
+    background-color: #a0a0a0 !important;
+  }
+  .form-control:focus {
+    border-color: inherit;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+
+.cr{
+  background-color: rgb(0,0,0,0.045);
+}
+
+#carouselExampleIndicators{
+  width: 800px !important;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+
+#carouselExampleIndicators img{
+  width: 800px !important;
+  height: 400px;
+}
+
+
+.cnt{
+
+
+  padding: 15px 20px;
+}
+
+.cnt a{
+  text-decoration: none;
+  color: black;
+}
+
+h5{
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.card-text{
+  font-size: 13px;
+  color: rgb(104, 107, 120);
+}
+
+.card{
+  border: none;
+  padding-top: 19px;
+}
+
+.card img{
+  margin: 0 auto;
+  width: 240px;
+  height: 170px;
+}
+
+.card:hover {
+  border: 1px solid rgb(0,0,0,0.25);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+}
+
+footer{
+  background-color: black;
+  color: darkgray;
+}
+footer a{
+  color: darkgray;
+}
+footer a:hover{
+  color: darkgray;
+}
+
+.pagination a{
+  color: black;
+}
+.pagination a:hover, .pagination a:active{
+  color: black;
+}
+
+@media (max-width: 990px){
+  .navbar-nav{
+    position: static !important;
+  }
+}
+
+@media (max-width: 818px){
+  #carouselExampleIndicators{
+    width: 90vw !important;
+    margin: 0 auto;
+  }
+
+  #carouselExampleIndicators img{
+    width: 90vw !important;
+    height: 300px;
+  }
+}
+
+@media (max-width: 340px){
+  .navbar-brand{
+    font-size: 20px !important;
+  }
+
+  body{
+        margin-top: 50px;
+  }
+}

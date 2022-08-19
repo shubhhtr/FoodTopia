@@ -1,0 +1,87 @@
+body{
+  font-family: Helvetica;
+
+}
+
+.img-container{
+  position: relative;
+}
+.bgimg{
+width: 100%;
+height: auto;
+opacity: 0.2;
+max-height: fit-content;
+}
+hr{
+  opacity: 0.1;
+}
+
+
+.line{
+  font-size: 40px;
+}
+
+.nav a:hover,.nav a:active {
+  color: black;
+}
+
+
+#bar{
+    border: 1px solid rgb(0,0,0,0.3);
+  height: 50px;
+  width: 400px;
+  padding-left: 20px;
+}
+.addressbox{
+  position: absolute;
+  top: 50px;
+  left: 20px;
+}
+#but{
+  background-color: black;
+  color: white;
+  height: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+#but:hover{
+  background-color: #a0a0a0;
+}
+
+.cities{
+  font-size: 1.5rem;
+}
+
+
+
+@media (max-width: 538px) {
+  #bar{
+    width: 275px;
+  }}
+@media (max-width: 414px) {
+#bar{
+  width: 240px;
+}
+.line{
+  font-size: 30px;
+}
+.nav a:link, .nav a:visited {
+  right: 5px;
+
+}
+#head{
+  top: 20px;
+  font-size: 23px;
+}
+}
+@media (max-width: 375px){
+  #bar{
+    width: 200px;
+  }
+
+}
+@media (max-width: 337px) {
+  #bar{
+    width: 160px;
+  }
+}
