@@ -6,6 +6,7 @@ import Content from './Components/Content';
 import PageNavi from "./Components/PageNavi";
 import Footer from "./Components/Footer";
 import Homepage from "./Components/Homepage";
+import Login from "./Components/LoginPg";
 
 
 function App() {
@@ -14,11 +15,10 @@ function App() {
   return (
 
     <div className="App">
-      <Head />
-      <Homepage />
-      <Offer />
-      <Content />
-      <PageNavi />
+      <Head/>
+      <Offer/>
+      <Content/>
+      <PageNavi/>
       <Footer />
     </div>
   );

@@ -5,8 +5,8 @@ import bgimg from "./image/bg1.jpg"
 function HomePage() {
   return (
     <div>
-        <div className="img-container">
-            <img src={bgimg} className="bgimg" />
+        <div className="has-bg-img">
+        <img src={bgimg} className="bg-img" />
             
             <div className="addressbox">
                 <span className="line">Order breakfast, lunch, and dinner.</span><br />

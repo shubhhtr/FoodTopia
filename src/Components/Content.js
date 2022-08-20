@@ -1,6 +1,16 @@
 import React from 'react'
 import "./main.css"
 import xyz from './image/bg1.webp'
+import aaa from './image/21.jpeg'
+import aab from './image/22.jpeg'
+import aac from './image/7.jpeg'
+import aad from './image/11.jpeg'
+import aae from './image/10.jpeg'
+import aaf from './image/9.jpeg'
+import aag from './image/6.jpeg'
+import aah from './image/2.jpeg'
+import aai from './image/3.jpeg'
+import aaj from './image/4.jpeg'
 
 
 
@@ -23,29 +33,70 @@ function content() {
 
     const obj=[
         {
+            id:1,
             cImg:xyz,
-            cTitle:"AAAAA",
-            cDis:"checkinggg"
+            cTitle:"Burger King",
+            cDis:"American, Fast Food"
         },
         {
-            cImg:"./image/bg1.webp",
-            cTitle:"AAAAA",
-            cDis:"checkinggg"
+            id:2,
+            cImg:aaa,
+            cTitle:"KFC",
+            cDis:"American, Fast Food, Snacks"
         },
         {
-            cImg:"./image/bg1.webp",
-            cTitle:"AAAAA",
-            cDis:"checkinggg"
+            id:3,
+            cImg:aab,
+            cTitle:"Chai Point",
+            cDis:"Bakery, Combo, Cafe, Beverages, Snacks, Street Food..."
         },
         {
-            cImg:"./image/bg1.webp",
-            cTitle:"AAAAA",
-            cDis:"checkinggg"
+            id:4,
+            cImg:aac,
+            cTitle:"Kwalty Walls Frozen Dessert and Ice Cream Shop",
+            cDis:"Ice Cream"
         },
         {
-            cImg:"./image/bg1.webp",
-            cTitle:"AAAAA",
-            cDis:"checkinggg"
+            id:5,
+            cImg:aad,
+            cTitle:"KFC",
+            cDis:"American, Fast Food"
+        },
+        {
+            id:6,
+            cImg:aae,
+            cTitle:"Burger King",
+            cDis:"American, Fast Food, Snacks"
+        },
+        {
+            id:7,
+            cImg:aaf,
+            cTitle:"Kwalty Walls Frozen Dessert and Ice Cream Shop",
+            cDis:"Bakery, Combo, Cafe, Beverages, Snacks, Street Food..."
+        },
+        {
+            id:8,
+            cImg:aag,
+            cTitle:"Chai Point",
+            cDis:"Ice Cream"
+        },
+        {
+            id:9,
+            cImg:aah,
+            cTitle:"Burger King",
+            cDis:"American, Fast Food"
+        },
+        {
+            id:10,
+            cImg:aai,
+            cTitle:"KFC",
+            cDis:"American, Fast Food, Snacks"
+        },
+        {
+            id:11,
+            cImg:aaj,
+            cTitle:"Chai Point",
+            cDis:"Bakery, Combo, Cafe, Beverages, Snacks, Street Food..."
         }
     ]
 
